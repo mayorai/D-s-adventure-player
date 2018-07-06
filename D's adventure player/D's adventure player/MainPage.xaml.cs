@@ -47,6 +47,7 @@ namespace D_s_adventure_player
         {
             var filePicker = new Windows.Storage.Pickers.FileOpenPicker();
             filePicker.FileTypeFilter.Add(".wav");
+            filePicker.FileTypeFilter.Add(".flac");
             playfile = await filePicker.PickSingleFileAsync();
         }
     }
