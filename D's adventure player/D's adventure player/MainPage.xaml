@@ -12,6 +12,7 @@
     <Grid>
         <Button x:Name="play" Content="Play" HorizontalAlignment="Left" Margin="294,246,0,0" VerticalAlignment="Top" Click="play_Click" Height="62" Width="100"/>
         <Button x:Name="open" Content="Open" HorizontalAlignment="Left" Margin="202,246,0,0" VerticalAlignment="Top" Height="62" Width="87" Click="open_Click"/>
+        <Slider x:Name="vol" HorizontalAlignment="Left" Margin="202,144,0,0" VerticalAlignment="Top" Width="124" ValueChanged="vol_ValueChanged" Maximum="1"/>
 
     </Grid>
 </Page>

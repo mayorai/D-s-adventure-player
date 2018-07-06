@@ -40,6 +40,7 @@ namespace D_s_adventure_player
         private void play_Click(object sender, RoutedEventArgs e)
         {
             player.Source = MediaSource.CreateFromStorageFile(playfile);
+            vol.Value = player.Volume;
             player.Play();
         }
 
@@ -49,6 +50,11 @@ namespace D_s_adventure_player
             filePicker.FileTypeFilter.Add(".wav");
             filePicker.FileTypeFilter.Add(".flac");
             playfile = await filePicker.PickSingleFileAsync();
+        }
+
+        private void vol_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            player.Volume = vol.Value;
         }
     }
 }
