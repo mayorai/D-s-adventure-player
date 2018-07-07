@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{3E07A701-FCF8-46BF-9B80-B67DB22D1C38}</ProjectGuid>
+    <ProjectGuid>{DF245DD4-7527-4147-8A9C-3912E6D87A66}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>D_s_adventure_player</RootNamespace>
@@ -107,9 +107,6 @@
     <None Include="D's adventure player_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="debug.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

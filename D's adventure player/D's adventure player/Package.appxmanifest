@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="e3c4a5a5-96c7-42c3-bcb9-da8833102a7e"
-    Publisher="CN=tsugawa-hyt"
+    Name="d5c399be-54fc-4220-b376-318260db4ae5"
+    Publisher="CN=araki-mk"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="e3c4a5a5-96c7-42c3-bcb9-da8833102a7e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="d5c399be-54fc-4220-b376-318260db4ae5" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>D's adventure player</DisplayName>
-    <PublisherDisplayName>tsugawa-hyt</PublisherDisplayName>
+    <PublisherDisplayName>araki-mk</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
